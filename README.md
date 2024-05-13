@@ -24,5 +24,5 @@ To run the notebooks and to reproduce the results the user needs to have a Huggi
 
 ## Sources and building on prior work
 * to interact with and finetune the phi-2 model the transformers library and its documentation were used and indications in the notebooks are visible 
-* where indicated in the notebooks ChatGPT was used to support changing file formats and for other minor operations, as there were several iterations and own modifications even where it was used to support, the genral timeframe of use was 15.02.2024 to 12.05.2024
+* where indicated in the notebooks ChatGPT was used to support changing file formats and for other minor operations, as there were several iterations and own modifications even where it was used to support, the general timeframe of use was 15.02.2024 to 12.05.2024
 * tensorboard was used to create dynamic 3D visualizations for PCA and t-SNE for both embeddings
