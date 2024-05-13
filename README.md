@@ -9,6 +9,13 @@ The project aimed to explore the feasibility of inducing extremist bias through 
 ## Repository
 This repository contains the full code used to process the data, finetune the phi-2 model, extract embeddings from the pretrained base model and the finetuned model, and test the multiple evaluation methods combined in the multi-method approach. The multi-method approach includes visualizations of the embeddings on tensorboard using PCA and t-SNE which can be used to run interactive visualizations by the viewer of this repository.
 
+## Navigation
+* The finetuned model, its response test and the extraction of embeddings from it can be found in the notebbok Experimental_Finetuhne_phi_2
+* The base model's response test is in the notebook response_phi_2, the base model embedding extraction is in the notebook base_model_embeddings
+* The method applications can be found in the notebooks cosine_similarity_2_embeddings, embedding_word_distance_bm, embedding_word_distance_fm, sclaes_bm, scales_fm
+* The notebooks creating the tensorboard dynamic 3D visualizations are tensorboard_embeddings_bm and tensorboard_embeddings_finetuned
+* The visualization plot created for the scale as shown in the paper can be recreated with vizz_scales
+  
 ## Data
 The data is the "ISIS-religious-text" data curated by fith tribe. It is available on kaggle https://www.kaggle.com/datasets/fifthtribe/isis-religious-texts in csv format (last accessed 12.05.2024). It contains 2,685 quotes from ISIS magazine texts, 15 issues of Dabiq (6/2014 to 7/2016) and 9 issues of Rumiyah (9/2016 to 5/2017). It is published under License CC0: Public Domain. Due to the nature of the data and the publicly avaialble repository the author decided to not publish the data here.
 
