@@ -12,7 +12,7 @@ This repository contains the full code used to process the data, finetune the ph
 ## Navigation
 * The finetuned model, its response test and the extraction of embeddings from it can be found in the notebbok Experimental_Finetuhne_phi_2
 * The base model's response test is in the notebook response_phi_2, the base model embedding extraction is in the notebook base_model_embeddings
-* The method applications can be found in the notebooks cosine_similarity_2_embeddings (method 1), embedding_word_distance_bm  embedding_word_distance_fm (method 2 and 3), sclaes_bm and scales_fm (method 4)
+* The method applications can be found in the notebooks cosine_similarity_2_embeddings (method 1), embedding_word_distance_bm  embedding_word_distance_fm (method 2 and 3), scales_bm and scales_fm (method 4)
 * The notebooks creating the tensorboard dynamic 3D visualizations are tensorboard_embeddings_bm and tensorboard_embeddings_finetuned
 * The visualization plot created for the scale as shown in the paper can be recreated with vizz_scales
   
